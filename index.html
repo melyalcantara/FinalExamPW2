@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Events in this city.</title>
+</head>
+<body>
+    <nav class="Nav-bar">
+        <a class="Navbar-brand" href="#">Search Events</a>
+    </nav>
+
+    <div class="container search-wrapper">
+        <div id="search-events" class="card card-body">
+            <h1>Search for events by name or city.</h1>
+        </div>
+
+        <div class="form-group">
+            <label for="event name"> Search by name or city</label>
+            <input type="text" id="event-name" class="form-control" placeholder="Search by name or city">
+        </div>
+
+        <div class="form-group">
+            <label for="category"> Category</label>
+            <select class="form-control" id="category"></select>
+        </div>
+
+        <div class="form-group">
+            <input type="submit" class="Submitbtn" id="Submitbtn" value="Search">
+        </div>
+
+        <div>
+            <div id="result"></div>
+        </div>
+    </div>
+
+    <footer class="footer"> Search events in your city &copy;</footer>
+
+    <script src="app.js"></script>
+    <script src="eventbrite.js"></script>
+</body>
+</html>

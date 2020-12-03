@@ -1,0 +1,12 @@
+.Nav-bar{
+  background-color: aqua;
+  height: 5ex;
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  text-align: center;
+  font-size: larger;
+
+}
+
+.card-card-body{
+  font-style: italic;
+}
